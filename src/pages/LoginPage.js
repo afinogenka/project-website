@@ -14,7 +14,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
-import LoginIcon from '@mui/icons-material/Lock';
+import LoginIcon from "@mui/icons-material/Login";
 
 
 
