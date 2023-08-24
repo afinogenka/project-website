@@ -46,7 +46,7 @@ export default function Header() {
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about">About Us</Nav.Link>
-              <Nav.Link href="/courses">Courses</Nav.Link>
+              <Nav.Link href="/catalog">Courses</Nav.Link>
               <Nav.Link href="/contacts">Contacts</Nav.Link>
             </Nav>
             <Form className="d-flex">
