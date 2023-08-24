@@ -4,22 +4,10 @@ import MainPage from "./pages/MainPage";
 import CatalogPage from "./pages/CatalogPage";
 import { LoginPage } from "./pages/LoginPage";
 import { SignUpPage } from "./pages/SignUpPage";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 import './App.css';
-
-// import firebase from 'firebase/app';
-// import 'firebase/firestore';
-// import 'firebase/auth';
-
-// import {useAuthState} from 'react-firebase-hooks/auth';
-// import {useCollectionData} from 'react-firebase-hooks/firestore';
-
-// firebase.initializeApp({
-  
-// })
-
-
 
 function App() {
   return (

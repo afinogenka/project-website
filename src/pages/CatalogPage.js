@@ -4,6 +4,7 @@ import {db} from "../firebase";
 import {collection, getDocs} from 'firebase/firestore';
 import Courses from "../components/Courses";
 import {Grid, Typography, Paper, Container} from "@mui/material";
+import Header from "../components/Header";
 
 const CatalogPage = () => {
   const [courses, setCourses] = React.useState([]);
@@ -20,6 +21,7 @@ const CatalogPage = () => {
   }, [])
   return (
     <div>
+      <Header/>
       <AuthDetails/>
       <Container>
         <Grid container spacing={3}
