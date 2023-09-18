@@ -31,12 +31,13 @@ export const SignUpPage = () => {
       createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
           console.log(userCredential);
+          navigate('/catalog');
         })
         .catch((error) => {
           console.log(error);
         });
       
-      navigate('/catalog');
+      
     };
   return (
     <div className='sign-in-container'>

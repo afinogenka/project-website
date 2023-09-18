@@ -22,11 +22,11 @@ const CatalogPage = () => {
   return (
     <div>
       <Header/>
-      <AuthDetails/>
       <Container>
         <Grid container spacing={3}
             display="flex"
             justify="center"
+            paddingTop={3}
 
           >
           {courses.map(course => (

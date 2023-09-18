@@ -38,8 +38,12 @@ function Courses({course}) {
                     </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button size="small" color="primary" onClick={handleOpenCourse}>
-                ПОДРОБНЕЕ
+                <Button
+                    variant="outline-info"
+                    className="w-100"
+                    onClick={handleOpenCourse}
+                >
+                    ПОДРОБНЕЕ
                 </Button>
             </CardActions>
         </Card>

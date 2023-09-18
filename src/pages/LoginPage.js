@@ -1,7 +1,6 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
 import {auth} from '../firebase';
-import AuthDetails from "../components/AuthDetails";
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -30,12 +29,13 @@ export const LoginPage = () => {
       signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
           console.log(userCredential);
+          navigate('/catalog');
         })
         .catch((error) => {
           console.log(error);
         });
       
-    navigate('/catalog');
+    
   
     };
 
@@ -125,7 +125,6 @@ export const LoginPage = () => {
               </Grid>
             </Grid>
           </ThemeProvider>
-        <AuthDetails></AuthDetails>
     </div>
   )
 }
