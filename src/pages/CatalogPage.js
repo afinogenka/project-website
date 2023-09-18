@@ -3,7 +3,7 @@ import AuthDetails from '../components/AuthDetails';
 import {db} from "../firebase";
 import {collection, getDocs} from 'firebase/firestore';
 import Courses from "../components/Courses";
-import {Grid, Typography, Paper, Container} from "@mui/material";
+import {Grid, Container} from "@mui/material";
 import Header from "../components/Header";
 
 const CatalogPage = () => {

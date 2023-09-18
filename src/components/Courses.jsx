@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { 
-    Button, 
     CardActionArea, 
     CardActions,
     Typography,
@@ -9,6 +8,7 @@ import {
     Card,
 } from '@mui/material'
 import { useNavigate } from 'react-router-dom';
+import { Button } from "react-bootstrap";
 
 function Courses({course}) {
     const navigate = useNavigate();

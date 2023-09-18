@@ -73,7 +73,7 @@ export default function Header() {
             <Nav className="me-auto">
               <Nav.Link href="/">Главная</Nav.Link>
               <Nav.Link href="/about">О нас</Nav.Link>
-              <Nav.Link href="/course">Курсы</Nav.Link>
+              <Nav.Link href="/catalog">Курсы</Nav.Link>
               <Nav.Link href="/contacts">Контакты</Nav.Link>
             </Nav>
             <Form className="d-flex">

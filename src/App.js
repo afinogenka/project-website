@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import MainPage from "./pages/MainPage";
+import {MainPage} from "./pages/MainPage";
 import CatalogPage from "./pages/CatalogPage";
 import { LoginPage } from "./pages/LoginPage";
 import { SignUpPage } from "./pages/SignUpPage";
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="EnglishApp">
       <Routes>
-        {/* <Route path="/" element={<MainPage />}/>              */}
+        <Route path="/" element={<MainPage />}/>             
         <Route path="/catalog"  element={ <CatalogPage/> }/>        
         <Route path="/registration" element={<SignUpPage/>}/>
         <Route path="/login" element={<LoginPage />}/>
